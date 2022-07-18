@@ -22,6 +22,7 @@ from dashboard.views import *
 
 urlpatterns = [
     path('login', useLogin),
-    path('index', index)
+    path('index', index),
+    path('devices', devices)
 
 ]
