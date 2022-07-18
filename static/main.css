@@ -1,0 +1,42 @@
+body {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas:
+     "header header"
+     "aside main";
+
+}
+
+header {
+    grid-area: header;
+    padding: 2em;
+}
+
+aside  {
+    grid-area: aside;
+    background-color: #0c3866;
+
+}
+
+main {
+    grid-area: main;
+}
+
+aside a {
+    color: #fff;
+    text-decoration: none;
+}
+
+aside nav {
+    height: 80vh;
+
+
+}
+
+aside nav a {
+    padding: .8em;
+    display: inline-block;
+    font-size: 1.2em;
+}
+
